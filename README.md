@@ -13,7 +13,7 @@ Ministry of Railway
 ## Idea
 Develop a multi-platform navigation system for railway stations that helps passengers locate facilities such as platforms, ticket counters, restrooms, and food courts using interactive 3D maps, voice navigation, and real-time updates via mobile apps and digital kiosks.
 
-## Proposed Solution / Architecture Diagram
+## Proposed Solution 
 A smart station navigation ecosystem that includes:
   Mobile Application
     3D interactive station map
@@ -30,6 +30,9 @@ A smart station navigation ecosystem that includes:
  Admin Dashboard
     Used by railway staff to update facilities, reroute paths, and view analytics
 
+## Architecture Diagram
+![Smart Station Navigation Ecosystem Diagram](https://github.com/user-attachments/assets/f2243444-9540-4839-80ca-736c55962e24)
+
 ## Use Cases
 1.New Passenger: Locates platform and restrooms using 3D map on phone.
 
@@ -38,6 +41,9 @@ A smart station navigation ecosystem that includes:
 3.Kiosk User: Finds food court via touch-screen interface and receives a QR code to continue navigation on phone.
 
 4.Admin Staff: Updates closed facilities or reroutes paths due to maintenance.
+
+![usecase](https://github.com/user-attachments/assets/f746fc01-ba72-4fba-adc0-1eb97d9f318d)
+
 
 
 ## Technology Stack
