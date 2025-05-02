@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 02.05.2025
+## Register Number: 212223040075
+## Name: JAYAVARSHA T
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -11,16 +11,48 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
-
+Develop a multi-platform navigation system for railway stations that helps passengers locate facilities such as platforms, ticket counters, restrooms, and food courts using interactive 3D maps, voice navigation, and real-time updates via mobile apps and digital kiosks.
 
 ## Proposed Solution / Architecture Diagram
+A smart station navigation ecosystem that includes:
+  Mobile Application
+    3D interactive station map
+    Indoor GPS or Bluetooth-based location tracking
+    Step-by-step real-time navigation
+    Voice assistance for visually impaired
+    Multilingual support (English, Hindi, etc.)
 
+ Digital Kiosks
+    Installed at major entry and transit points
+    Touch-based UI with the same navigation features
+    QR code generation to transfer route to mobile
+
+ Admin Dashboard
+    Used by railway staff to update facilities, reroute paths, and view analytics
 
 ## Use Cases
+1.New Passenger: Locates platform and restrooms using 3D map on phone.
+
+2.Visually Impaired User: Uses voice-guided navigation to reach assistance counter.
+
+3.Kiosk User: Finds food court via touch-screen interface and receives a QR code to continue navigation on phone.
+
+4.Admin Staff: Updates closed facilities or reroutes paths due to maintenance.
 
 
 ## Technology Stack
+![image](https://github.com/user-attachments/assets/7d2311c5-9b31-45e2-9048-7b9564237b3c)
 
 
 ## Dependencies
+BLE Beacons for indoor navigation
+
+Mapbox SDK or similar for station maps
+
+Cloud Hosting (Firebase, AWS, or GCP)
+
+Railway API for live train and platform data
+
+Accessibility Libraries for screen readers and voice input
+
 
